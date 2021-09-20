@@ -1,0 +1,161 @@
+html,body{
+
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif !important;
+    color: #fff;
+}
+
+body{
+
+    background: url(../img/unsplash01.jpg) no-repeat 50% 50%;
+    background-size: cover;
+}
+
+
+
+.logo{
+
+    float: left;
+    line-height: 40px;
+    margin: 1.2rem;
+    margin-left: 5rem;
+    font-weight: 500;
+    font-size: 1.4rem;
+    
+
+}
+
+.logo span{
+
+    color: #000;
+    font-weight: 600;
+    font-size: 1.4rem;
+}
+
+.nav{
+
+    line-height: 40px;
+    margin: 1.4rem 5rem 0 1.4rem;
+    position: absolute;
+    right: 0;
+}
+
+.nav ul li{
+
+    list-style: none;
+    display: inline-block;
+    padding-right: 40px;
+    font-weight: bolder;
+    font-size: 1rem;
+}
+
+.social-media{
+
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.social-media ul li{
+
+    list-style: none;
+    font-size: 1.6rem;
+    padding-top: 20px;
+}
+
+.header{
+
+    position: absolute;
+    top: 38%;
+    left: 40%;
+    transform: translate(-50%,-50%);
+}
+
+.header h2{
+
+    font-weight: bolder;
+    font-size: 3.5rem;
+
+}
+
+.header p{
+
+    font-weight: lighter;
+}
+
+.header button{
+
+    padding: 16px 40px;
+    background: #fff;
+    color: #000;
+    text-transform: uppercase;
+    margin-top: 20px;
+    border: none;
+    font-weight: bold;
+    letter-spacing: 4px;
+    cursor: pointer;
+}
+
+.header button:hover{
+
+    background: rgb(238, 238, 238);
+    transition: all 0.2s ease-in-out;
+}
+
+.bottom{
+
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.container{
+
+    min-width: 60% !important;
+}
+
+.row{
+    
+    padding: 2.6rem 2.6rem 2rem 2.6rem;
+    background: #000;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+
+.bottom h5{
+    font-size: 1.4rem;
+    font-weight: bolder;
+    margin-bottom: 20px;
+}
+
+.bottom p{
+
+    font-weight: lighter;
+}
+
+.overlay{
+
+    position: absolute;
+    top: 0;
+    background: #fff;
+    height: 100vh;
+    width: 100%;
+    z-index: 1;
+
+}
+
+.overlay h1{
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #000;
+    font-weight: bolder;
+    letter-spacing: 10px;
+}
